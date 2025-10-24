@@ -21,6 +21,9 @@
                     <li class="nav-item">
                         <a class="nav-link" th:href="@{/cars}">List Cars</a>
                     </li>
+                    <form th:action="@{/logout}" method="post">
+                        <button type="submit">Sair do Sistema</button>
+                    </form>
                 </ul>
             </div>
         </div>
